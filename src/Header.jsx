@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -14,7 +15,7 @@ const Header = () => {
           <h1 className="text-6xl font-extrabold mb-4 drop-shadow-lg animate-fade-in-down">My Portfolio</h1>
           <p className="text-xl mb-8 drop-shadow-lg animate-fade-in-up">Web Developer</p>
           <nav className="flex space-x-4">
-            <a href="#about" className="px-6 py-2 btn border-1 border-white bg-red-600 text-white rounded-full hover:bg-red-700 transition animate-fade-in-down">About</a>
+            <Link to="About" className="px-6 py-2 btn border-1 border-white bg-red-600 text-white rounded-full hover:bg-red-700 transition animate-fade-in-down">About</Link>
             <a href="#projects" className="px-6 py-2 btn border-1 border-white bg-red-600 text-white rounded-full hover:bg-red-700 transition animate-fade-in-down">Projects</a>
             <a href="#contact" className="px-6 py-2 btn border-1 border-white bg-red-600 text-white rounded-full hover:bg-red-700 transition animate-fade-in-down">Contact</a>
           </nav>

@@ -34,7 +34,7 @@ const AboutSection = () => {
           <h2 className="text-4xl font-bold mb-8 text-center">About Me</h2>
           <div className="text-lg leading-relaxed text-center">
             <p className="mb-6">
-              I am a passionate web developer specializing in building modern web applications using React and other technologies. With several years of experience in front-end development, I am skilled in creating responsive and user-friendly interfaces.
+              I am a passionate web developer specializing in building modern web applications using React and other technologies. I am skilled in creating responsive and user-friendly interfaces.
             </p>
             <p className="mb-6">
               My expertise includes:
