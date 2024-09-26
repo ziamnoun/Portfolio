@@ -8,6 +8,8 @@ import "./index.css";
 import MainLayOut from "./MainLayOut";
 import AboutSection from "./AboutSection";
 import Projects from "./Projects";
+import ContactSection from "./ContactSection";
+import EducationSection from "./EducationSection";
 
 
 
@@ -23,6 +25,15 @@ const router = createBrowserRouter([
   {
     path: "/Projects",
     element: <Projects></Projects>
+  },
+  {
+    path:"/ContactSection",
+    element: <ContactSection></ContactSection>
+
+  },
+  {
+    path: "/Education",
+    element: <EducationSection></EducationSection>
   }
 ])
 
